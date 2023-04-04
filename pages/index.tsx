@@ -1,7 +1,14 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import HeroSection from "./home/HeroSection";
 
 const index = () => {
-  return <div className="text-3xl bg-red-900 px-3 py-5 text-white">UNFIND</div>;
+  return (
+    <>
+      <Navbar />
+      <HeroSection />
+    </>
+  );
 };
 
 export default index;
