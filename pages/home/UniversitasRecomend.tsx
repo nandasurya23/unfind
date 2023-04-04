@@ -9,7 +9,6 @@ import { univ } from "../api/data/univ";
 const UniversitasRecomend = () => {
   const settings = {
     arrows: false,
-    dots: true,
     speed: 500,
     autoplay: true,
     autoplaySpeed: 4000,
@@ -46,7 +45,7 @@ const UniversitasRecomend = () => {
   return (
     <section className="bg-gray font-Poppins px-3">
       <div className="container mx-auto px-3 py-10 text-center">
-        <h1 className="text-5xl font-bold w-7/12 mx-auto leading-normal ">
+        <h1 className="text-5xl font-bold w-7/12 mx-auto leading-normal">
           Rekomendasi{" "}
           <span className="text-blue-primary">Universitas Luar Negeri</span>{" "}
           Terbaik
@@ -72,7 +71,7 @@ const UniversitasRecomend = () => {
               );
             })}
           </Slider>
-          <button className="mt-20 px-2 py-3 bg-blue-primary text-white w-2/12 rounded-md text-base font-medium hover:scale-105 duration-200">
+          <button className="mt-5 px-2 py-3 bg-blue-primary text-white w-2/12 rounded-md text-base font-medium hover:scale-105 duration-200">
             Lihat lebih banyak
           </button>
         </div>
