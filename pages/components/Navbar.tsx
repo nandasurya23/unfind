@@ -10,25 +10,25 @@ const Navbar = () => {
             src="https://res.cloudinary.com/df82hir2r/image/upload/v1680536221/xdradio/unifind/Logo_obqj9h.svg"
             alt="logo"
           />
-          <ul className="flex items-center space-x-10">
-            <li className="cursor-pointer hover:text-blue-500/80 duration-200">
+          <ul className="flex items-center justify-center font-medium space-x-10">
+            <li className="cursor-pointer hover:text-blue-primary/80 duration-200">
               Beranda
             </li>
-            <li className="cursor-pointer hover:text-blue-500/80 duration-200">
+            <li className="cursor-pointer hover:text-blue-primary/80 duration-200">
               Universitas
             </li>
-            <li className="cursor-pointer hover:text-blue-500/80 duration-200">
+            <li className="cursor-pointer hover:text-blue-primary/80 duration-200">
               Program
             </li>
-            <li className="cursor-pointer hover:text-blue-500/80 duration-200">
+            <li className="cursor-pointer hover:text-blue-primary/80 duration-200">
               About
             </li>
           </ul>
           <div className="flex items-center space-x-3">
-            <button className="border border-blue-500 text-sm rounded-lg px-4 py-2 hover:bg-blue-500 hover:text-white duration-200">
+            <button className="border border-blue-primary text-sm text-blue-primary rounded-lg px-4 py-2 hover:bg-blue-primary hover:text-white duration-200">
               Sing up
             </button>
-            <button className="bg-blue-500 px-4 py-2 text-sm rounded-lg text-white hover:bg-white hover:border hover:border-blue-500 hover:text-black duration-150">
+            <button className="bg-blue-primary px-4 py-2 text-sm rounded-lg text-white hover:bg-white hover:border hover:border-blue-primary hover:text-black duration-150">
               Login
             </button>
           </div>

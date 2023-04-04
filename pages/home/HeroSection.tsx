@@ -4,11 +4,11 @@ import InfoButton from "../components/InfoButton";
 
 const HeroSection = () => {
   return (
-    <section className="bg-blue-500 px-3font-Poppins text-white">
+    <section className="bg-blue-primary px-3 font-Poppins text-white">
       <div className="container mx-auto px-3 pt-32">
         <div className="flex items-center justify-between">
           <div className="flex flex-col w-4/12">
-            <h1 className="text-6xl font-bold leading-normal">
+            <h1 className="text-5xl font-bold leading-normal">
               Study abroad? We give you the route!
             </h1>
             <p className="mt-2 mb-10 text-base">
