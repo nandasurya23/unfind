@@ -15,6 +15,7 @@ module.exports = {
       black: "#1E1E1E",
       'blue-primary': '#466DE0',
       'orange-primary': '#FF731D',
+      'yellow-primary' : '#F7B026',
       'red-primary': '#FF0000'
     },
     fontFamily: {

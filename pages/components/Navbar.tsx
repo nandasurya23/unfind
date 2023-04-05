@@ -26,9 +26,9 @@ const Navbar = () => {
           </ul>
           <div className="flex items-center space-x-3">
             <button className="border border-blue-primary text-sm text-blue-primary rounded-lg px-4 py-2 hover:bg-blue-primary hover:text-white duration-200">
-              Sing up
+              Sign Up
             </button>
-            <button className="bg-blue-primary px-4 py-2 text-sm rounded-lg text-white hover:bg-white hover:border hover:border-blue-primary hover:text-black duration-150">
+            <button className="bg-blue-primary px-4 py-2 text-sm rounded-lg text-white hover:bg-white hover:border hover:border-blue-primary hover:text-blue-primary duration-150">
               Login
             </button>
           </div>
