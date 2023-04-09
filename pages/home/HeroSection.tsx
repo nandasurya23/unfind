@@ -4,7 +4,7 @@ import InfoButton from "../components/InfoButton";
 
 const HeroSection = () => {
   return (
-    <section className="bg-blue-primary px-3 font-Poppins text-white">
+    <section className="bg-blue-primary banner px-3 font-Poppins text-white">
       <div className="container mx-auto px-3 pt-32">
         <div className="flex items-center justify-between">
           <div className="flex flex-col w-4/12">

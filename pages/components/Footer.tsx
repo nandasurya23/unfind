@@ -1,14 +1,18 @@
+/* eslint-disable react/jsx-no-undef */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <section>
-      <footer className="bg-blue-primary font-Poppins px-3 rounded-t-3xl py-20">
+      <footer className="bg-blue-primary banner font-Poppins px-3 rounded-t-3xl py-20">
         <div className="container px-3 mx-auto">
-          <img
+          <Image
             src="https://res.cloudinary.com/df82hir2r/image/upload/v1680667467/xdradio/unifind/logo_putih_cks1vj.svg"
             alt=""
+            width={200}
+            height={0}
           />
           <div className="w-5/12">
             <p className="text-white mt-5">
@@ -23,30 +27,38 @@ const Footer = () => {
           </div>
           <div className="flex items-center mt-4 space-x-5 ">
             <div className="flex items-center space-x-3 text-white  bg-white/50 py-3 px-5 rounded-full">
-              <img
+              <Image
                 src="https://res.cloudinary.com/df82hir2r/image/upload/v1680668233/xdradio/unifind/yt_dhgxl9.svg"
                 alt=""
+                width={25}
+                height={0}
               />
               <button>Youtube</button>
             </div>
             <div className="flex items-center space-x-3 text-white bg-white/50 py-3 px-5 rounded-full">
-              <img
+              <Image
                 src="https://res.cloudinary.com/df82hir2r/image/upload/v1680668233/xdradio/unifind/ig_z7fltl.svg"
                 alt=""
+                width={25}
+                height={0}
               />
               <button>Instagram</button>
             </div>
             <div className="flex items-center space-x-3 text-white bg-white/50 py-3 px-5 rounded-full">
-              <img
+              <Image
                 src="https://res.cloudinary.com/df82hir2r/image/upload/v1680668233/xdradio/unifind/fb_dxcbgh.svg"
                 alt=""
+                width={25}
+                height={0}
               />
               <button>Facebook</button>
             </div>
             <div className="flex items-center space-x-3 text-white bg-white/50 py-3 px-5 rounded-full">
-              <img
+              <Image
                 src="https://res.cloudinary.com/df82hir2r/image/upload/v1680668234/xdradio/unifind/tw_ovyntd.svg"
                 alt=""
+                width={25}
+                height={0}
               />
               <button>Twitter</button>
             </div>

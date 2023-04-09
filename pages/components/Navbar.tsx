@@ -1,14 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
     <nav className="py-3 box-border font-Poppins bg-white fixed shadow w-full z-50">
       <div className="container px-3 py-2 mx-auto">
         <div className="flex justify-between items-center">
-          <img
+          <Image
             src="https://res.cloudinary.com/df82hir2r/image/upload/v1680536221/xdradio/unifind/Logo_obqj9h.svg"
             alt="logo"
+            width={150}
+            height={0}
           />
           <ul className="flex items-center justify-center font-medium space-x-10">
             <li className="cursor-pointer hover:text-blue-primary/80 duration-200">

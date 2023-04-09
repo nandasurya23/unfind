@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <link
           rel="shortcut icon"
-          href="https://res.cloudinary.com/df82hir2r/image/upload/v1680536221/xdradio/unifind/Logo_obqj9h.svg"
+          href="https://res.cloudinary.com/df82hir2r/image/upload/v1681029671/xdradio/Logo_SVG_p0nim9.svg"
           type="image/x-icon"
         />
         <title>Unifind</title>
