@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -14,18 +15,24 @@ const Navbar = () => {
             height={0}
           />
           <ul className="flex items-center justify-center font-medium space-x-10">
-            <li className="cursor-pointer hover:text-blue-primary/80 duration-200">
-              Beranda
-            </li>
+            <Link href={"/"}>
+              <li className="cursor-pointer hover:text-blue-primary/80 duration-200">
+                Beranda
+              </li>
+            </Link>
+            
             <li className="cursor-pointer hover:text-blue-primary/80 duration-200">
               Universitas
             </li>
             <li className="cursor-pointer hover:text-blue-primary/80 duration-200">
               Program
             </li>
-            <li className="cursor-pointer hover:text-blue-primary/80 duration-200">
-              About
-            </li>
+            <Link href={"/about"}>
+              <li className="cursor-pointer hover:text-blue-primary/80 duration-200">
+                About
+              </li>
+            </Link>
+            
           </ul>
           <div className="flex items-center space-x-3">
             <button className="border border-blue-primary text-sm text-blue-primary rounded-lg px-4 py-2 hover:bg-blue-primary hover:text-white duration-200">
